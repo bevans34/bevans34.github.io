@@ -1,4 +1,5 @@
-# bevans34.github.io
-Welcome! Below, you can find links for certain webpages that are part of this site.
+# CST 336 Internet Programming Links
 
+Week 1:
 [Lab 1](https://bevans34.github.io/lab1)
+[HW 1](https://bevans34.github.io/hw1)
