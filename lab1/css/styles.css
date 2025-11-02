@@ -1,0 +1,79 @@
+body {
+    background-color: #3c3c3c;
+    color: white;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+nav a { /* styles within navigation bar */
+    padding: 15px;
+    padding-botom: 4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color: white; /* by default links are blue. lets make it white for more readability on a dark background */
+}
+
+nav a:hover { /* pseudo class */
+    border-bottm:2px orange solid;
+    font-size: 2em;
+    transition: .9s; /* transition effect */ 
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.hobby {
+    color: yellow;
+}
+
+/* Open Sans from fonts.google.com */
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* Make font size smaller and change font color in footer */
+footer {
+    font-size: 0.9em;
+    color: aqua;
+}
+
+/* Add active class to make current page on nav bar stand out (W3schools was helpful for this) */
+.active {
+    color: yellow;
+}
