@@ -3,3 +3,7 @@
 Week 1:
 [Lab 1](https://bevans34.github.io/lab1)
 [HW 1](https://bevans34.github.io/hw1)
+
+Week 2:
+[Lab 2](https://bevans34.github.io/lab2)
+[HW 2](https://bevans34.github.io/hw2)
