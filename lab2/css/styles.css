@@ -1,0 +1,40 @@
+body {
+    /* Open Sans from fonts.google.com (Body Font) */
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+
+    text-align: center;
+    background-image: url("../img/numbers_bg.jpg"); /* Image source: https://depositphotos.com/photos/numbers-on-wooden-background.html?qview=690566760 */
+    background-size: cover;
+}
+
+header {
+    /* Workbench font from fonts.google.com (Header Font) */
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "BLED" 0, "SCAN" 0;
+
+    color: white;
+    background-color: rgba(100 ,100, 100, .5);
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+#main {
+    background-color: rgba(200, 200, 200,.5);
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+#feedback {
+    padding: 25px;
+    background-color: white;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-weight: bold;
+}
