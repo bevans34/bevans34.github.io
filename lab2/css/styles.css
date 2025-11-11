@@ -38,3 +38,7 @@ header {
     margin-right: 500px;
     font-weight: bold;
 }
+
+#footer {
+    background-color: rgba(200, 200, 200,.5);
+}
