@@ -3,8 +3,8 @@
 // Event Listeners
 document.querySelector("button").addEventListener("click", gradeQuiz); // runs upon clicking "submit quiz"
 
-// Global variable
-let score = 0;
+// Global variables
+let score;
 let attempts = localStorage.getItem("total_attempts"); // Use local storage to store number of attempts
 
 // Shuffle multiple choice answers (Q4/Q5)
@@ -36,6 +36,9 @@ function isFormValid() {
 }
 
 function gradeQuiz() {
+    // Set score to 0
+    score = 0;
+    
     console.log("Grading quiz…");
     document.querySelector("#validationFdbk").innerHTML = ""; // Reset validation feedback
 
@@ -182,4 +185,5 @@ function incorrect(index) {
     document.querySelector(`#q${index}Feedback`).className = "bg-danger text-white";
     document.querySelector(`#markImg${index}`).innerHTML = "<img src='img/xmark.png' alt='x mark (Incorrect Answer)'>";
 }
+
 
