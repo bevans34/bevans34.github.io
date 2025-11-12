@@ -157,8 +157,8 @@ function gradeQuiz() {
         incorrect(10);
     }
 
-    // Color code the total score messages and add congratulatory message if score >= 80
-    if (score >= 80) {
+    // Color code the total score messages and add congratulatory message if score > 80
+    if (score > 80) {
         document.querySelector("#totalScore").innerHTML = `Total score: ${score}/100<br>Wow, you really know your stuff!`;
         document.querySelector("#totalScore").className = "text-success";
     } else {
@@ -182,3 +182,4 @@ function incorrect(index) {
     document.querySelector(`#q${index}Feedback`).className = "bg-danger text-white";
     document.querySelector(`#markImg${index}`).innerHTML = "<img src='img/xmark.png' alt='x mark (Incorrect Answer)'>";
 }
+
