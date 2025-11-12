@@ -1,4 +1,4 @@
-// Lab 2 Guess the Number JavaScript File (Brandon Evans)
+// Homework 2 US Geography Quiz JavaScript File (Brandon Evans)
 
 // Event Listeners
 document.querySelector("button").addEventListener("click", gradeQuiz); // runs upon clicking "submit quiz"
@@ -185,5 +185,6 @@ function incorrect(index) {
     document.querySelector(`#q${index}Feedback`).className = "bg-danger text-white";
     document.querySelector(`#markImg${index}`).innerHTML = "<img src='img/xmark.png' alt='x mark (Incorrect Answer)'>";
 }
+
 
 
