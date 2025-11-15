@@ -1,0 +1,21 @@
+body {
+    background-color: #3c3c3c;
+    color: white;
+}
+
+input[type=text] {
+  width: 25%;
+  padding: 5px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.hint {
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(101, 224, 0);
+}
+
+footer {
+    text-align: center;
+}
