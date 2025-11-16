@@ -50,9 +50,9 @@ async function getBazaarData() {
     }
 
     document.querySelector("#buyPrice").innerHTML = data.products[item]["quick_status"]["buyPrice"].toLocaleString() + " coins per unit";
-    document.querySelector("#buyVolume").innerHTML = data.products[item]["quick_status"]["buyVolume"].toLocaleString() + " units in buy orders";
+    document.querySelector("#buyVolume").innerHTML = data.products[item]["quick_status"]["buyVolume"].toLocaleString() + " units in sell orders";
     document.querySelector("#buyMovingWeek").innerHTML = data.products[item]["quick_status"]["buyMovingWeek"].toLocaleString() + " units bought this week";
-    document.querySelector("#buyOrders").innerHTML = data.products[item]["quick_status"]["buyOrders"].toLocaleString() + " units available for instant sell";
+    document.querySelector("#buyOrders").innerHTML = data.products[item]["quick_status"]["buyOrders"].toLocaleString() + " orders make up all the available units";
 
     // Check if sell summary is null
     if (data.products[item]["sell_summary"][0]) {
@@ -62,9 +62,9 @@ async function getBazaarData() {
     }
 
     document.querySelector("#sellPrice").innerHTML = data.products[item]["quick_status"]["sellPrice"].toLocaleString() + " coins per unit";
-    document.querySelector("#sellVolume").innerHTML = data.products[item]["quick_status"]["sellVolume"].toLocaleString() + " units in sell orders";
+    document.querySelector("#sellVolume").innerHTML = data.products[item]["quick_status"]["sellVolume"].toLocaleString() + " units in buy orders";
     document.querySelector("#sellMovingWeek").innerHTML = data.products[item]["quick_status"]["sellMovingWeek"].toLocaleString() + " units sold this week";
-    document.querySelector("#sellOrders").innerHTML = data.products[item]["quick_status"]["sellOrders"].toLocaleString() + " units available for instant buy";
+    document.querySelector("#sellOrders").innerHTML = data.products[item]["quick_status"]["sellOrders"].toLocaleString() + " orders make up all the available units";
 }
 
 // Helper function to clear all results. Error parameter is used when an item is not on the Bazaar or does not exist.
