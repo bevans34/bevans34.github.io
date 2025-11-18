@@ -11,3 +11,7 @@ Week 2:
 Week 3:
 [Lab 3](https://bevans34.github.io/lab3)
 [HW 3](https://bevans34.github.io/hw3)
+
+Week 4:
+[Lab 4](https://cst336-lab4.onrender.com)
+[HW 4](https://cst336-hw4.onrender.com)
