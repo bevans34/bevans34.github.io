@@ -15,3 +15,9 @@ Week 3:
 Week 4:
 [Lab 4](https://cst336-lab4.onrender.com)
 [HW 4](https://cst336-hw4.onrender.com)
+
+Week 5:
+[Lab 5](https://cst336-lab5-0p19.onrender.com)
+
+Week 6:
+[Lab 6](https://cst336-lab6-zcgy.onrender.com)
