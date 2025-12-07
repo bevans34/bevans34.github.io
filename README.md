@@ -21,3 +21,6 @@ Week 5:
 
 Week 6:
 [Lab 6](https://cst336-lab6-zcgy.onrender.com)
+
+Weeks 7 and 8:
+[Final Group Project - Savnac](https://savnac-ak72.onrender.com)
